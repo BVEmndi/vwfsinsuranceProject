@@ -1,0 +1,298 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify whether a vehicle exists",
+        "description": "",
+        "id": "search;verify-whether-a-vehicle-exists;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2350351429,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is the homepage",
+            "match": {
+              "location": "Steps.user_is_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 286871023,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User searches the vehicle exists by \"OV12UYY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OV12UYY",
+                  "offset": 37
+                }
+              ],
+              "location": "Steps.user_searches_the_vehicle_exists_by(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1063493953,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the result page should display the information \"Result for : OV12UYY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Result for : OV12UYY",
+                  "offset": 48
+                }
+              ],
+              "location": "Steps.the_result_page_should_display_the_information(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@1"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify whether a vehicle exists",
+        "description": "",
+        "id": "search;verify-whether-a-vehicle-exists;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 153946,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is the homepage",
+            "match": {
+              "location": "Steps.user_is_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131992182,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User searches the vehicle exists by \"OV120YY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OV120YY",
+                  "offset": 37
+                }
+              ],
+              "location": "Steps.user_searches_the_vehicle_exists_by(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1123656922,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the result page should display the information \"Sorry record not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sorry record not found",
+                  "offset": 48
+                }
+              ],
+              "location": "Steps.the_result_page_should_display_the_information(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@1"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verify whether a vehicle exists",
+        "description": "",
+        "id": "search;verify-whether-a-vehicle-exists;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 257398,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is the homepage",
+            "match": {
+              "location": "Steps.user_is_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138976821,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User searches the vehicle exists by \")(\u0026)\u0026)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": ")(\u0026)\u0026)",
+                  "offset": 37
+                }
+              ],
+              "location": "Steps.user_searches_the_vehicle_exists_by(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1041842969,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the result page should display the information \"Please enter a valid car registration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter a valid car registration",
+                  "offset": 48
+                }
+              ],
+              "location": "Steps.the_result_page_should_display_the_information(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@1"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify whether a vehicle exists",
+        "description": "",
+        "id": "search;verify-whether-a-vehicle-exists;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 286956,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is the homepage",
+            "match": {
+              "location": "Steps.user_is_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121151501,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User searches the vehicle exists by \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 37
+                }
+              ],
+              "location": "Steps.user_searches_the_vehicle_exists_by(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1044896849,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the result page should display the information \"Please enter a valid car registration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter a valid car registration",
+                  "offset": 48
+                }
+              ],
+              "location": "Steps.the_result_page_should_display_the_information(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@1"
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "As a User\r\nI want to check whether cover of the vehicle exists\r\nSo that it is legally approved to go on roads",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/SearchFeature.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@1"
+      }
+    ]
+  }
+]
